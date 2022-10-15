@@ -1,0 +1,12 @@
+import RobloxAccountMaker
+
+RobloxAccountMaker.setupUser "(AbcAcc26)", "AbcAcc26", "Male", "Jan", "04", "1990")
+RobloxAccountMaker.createUser(AbcAcc26)
+
+#creates account with randomized name 
+RobloxAccountMaker.setupUserRandomized("AbcAcc26")
+RobloxAccountMaker.createUser(AbcAcc26)
+
+#creates account with randomized name and password is name
+RobloxAccountMaker.setupUserRandomized(AbcAcc26)
+RobloxAccountMaker.createUser(AbcAcc26)
